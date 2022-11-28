@@ -370,19 +370,13 @@ img{
 
 .social-links{
     display: flex;
-    width: 206px;
-    height: 44px;
-    margin-left: 32px;
-    margin-right: 32px;
     margin-top: 16px;
-    margin-bottom: 30px;
     justify-content: center;
     align-items: center;
     background-size: 44px;
     background-repeat: no-repeat;
     background-position: center;
-    background-color:  var(--primary-white-color);
-      
+    background-color:  var(--primary-white-color);    
 }
 
 .social-links .item{
@@ -422,9 +416,12 @@ img{
 }
 
 .team-list .list .content{
+    padding-left: 32px;
+    padding-right: 32px; 
     padding-top: 30px;
-    /* padding-bottom: 16px; */
+    padding-bottom: 30px; 
 }
+
 .team-title{
     margin-bottom: 10px;
     text-align: center;
@@ -537,7 +534,6 @@ img{
 
 .social-title{
     margin-bottom: 20px;
-    width: 116px;
 
     color: var(--primary-white-color);
     font-weight: 700;
